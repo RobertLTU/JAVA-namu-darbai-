@@ -20,9 +20,9 @@ public class Uzduotis1
 			sekosTipas--;
 		} 
 	}
-		if (sekosTipas == 5) {
+		if (sekosTipas == (seka.length - 1)) {
 			System.out.println("Seka didejanti");
-		} else if (sekosTipas == -5) {
+		} else if (sekosTipas == (1 - seka.length)) {
 			System.out.println("Seka mazejanti");
 		} else {
 			System.out.println("Skaiciu seka atsitiktine");
